@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --vermelho: #e90c0c;
+    --branco: #fff;
+}
+
+body {
+    background-color: var(--vermelho);
+}
+
+div img {
+    width: 300px;
+    display: flex;
+    margin: 20px auto;
+
+}
+
+.container {
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+    max-width: 250px;
+    margin: 10px auto;
+}
+
+.icones {
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    outline-color: var(--vermelho);
+}
+
+button {
+    box-shadow: 0.1px 2px 5px rgb(0, 0, 0);
+    width: 70%;
+    height: 30px;
+    margin: 10% 15% 5%;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #ffffff46;
+}
+
+button:hover {
+    box-shadow: 0.1px 2px 5px rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.986);
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color:
+        #f3eded7c;
+
+}
+
+.container h6 {
+    font-size: 15px;
+    width: 80%;
+    color: #fff;
+    margin: 5px 42px;
+}
+
+.esqueci-senha {
+    color: #10038a;
+    margin: 1px 40px;
+}
+
+.esqueci-senha:hover {
+    font-weight: 500;
+}
+
+.cadastro {
+    color: #10038a;
+    margin: 80px;
+}
+
+.cadastro:hover {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+label {
+
+    margin: 5px;
+    color: #ffffff;
+}
+
+i {
+    color: #fff;
+}
